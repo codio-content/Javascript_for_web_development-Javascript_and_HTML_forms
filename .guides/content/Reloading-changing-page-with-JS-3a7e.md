@@ -1,0 +1,4 @@
+document.url = ""
+
+window.reload
+

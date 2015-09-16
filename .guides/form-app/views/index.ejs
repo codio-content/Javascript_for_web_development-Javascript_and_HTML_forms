@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Show me</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="title">
+    Thank you for submitting your form to this address.<br><br>
+    Here is your form data.
+  </div>
+  
+  <pre><code id=results></code></pre>
+  
+  <script src="js/jquery.js"></script>
+  <script src="js/pp.js"></script>
+  <script>
+    
+    $(document).ready(function(){
+        var jsondata = <%- postdata %>;
+
+        //console.log(jsondata)
+
+       // var data = JSON.parse(jsondata)
+       // 
+       if (jsondata.firstname && jsondata.lastname) {
+         
+         $("body").prepend('<h1 class="ribbon"> Hi! <br> Welcome to the form handler script <br> <span class="firstname"><strong>'+jsondata.firstname+'</strong></span> <span class="firstname"><strong>'+jsondata.lastname+'</strong></span> </div>')
+         
+       }
+
+        $("#results").html(library.json.prettyPrint(jsondata));
+      
+    });
+    
+    
+  
+  </script>
+  
+</body>
+</html>

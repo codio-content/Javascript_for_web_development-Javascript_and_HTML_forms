@@ -1,0 +1,158 @@
+{
+ "sections": [
+  {
+   "id": "d7e6d40b-5a1f-6da8-26fb-80056adf90a",
+   "title": "Introduction",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Introduction-d7e6.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "bbb39b66-dd77-dde2-6009-f6e9e889a4cb",
+   "title": "HTML forms",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "html-forms/simplest-form.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: html-forms/simplest-form.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell-tree",
+   "path": [
+    "html-forms"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/HTML-forms-bbb3.md",
+   "chapter": true,
+   "reset": [
+    "html-forms"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "55ffd956-fe9c-4ad2-d848-b385bca6a4b7",
+   "title": "Form mechanisms",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Form-mechanisms-55ff.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "6e73ed-9df4-b6bc-183c-40e98af764f",
+   "title": "Your first form!",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "your-first-form/challenge.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: your-first-form/challenge.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "your-first-form"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Your-first-form--6e73.md",
+   "chapter": false,
+   "reset": [
+    "your-first-form"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "841c95b1-dc66-c102-b77e-813d68b1859c",
+   "title": "Handling forms with JS",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Handling-forms-with-JS-841c.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "b8b3631f-4422-ade1-4f6c-d83ef47d7733",
+   "title": "Handling forms with jQuery",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Handling-forms-with-jQuery-b8b3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "3d72d341-9cd5-dba4-639d-f7e3b0f131c0",
+   "title": "Query String handling",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Query-String-handling-3d72.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "3a7ebc2b-ac91-12-2336-e5391e2d8466",
+   "title": "Reloading/changing page with JS",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Reloading-changing-page-with-JS-3a7e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "deeacd9a-b17f-3722-2d71-7bb9cbfe3d2d",
+   "title": "That's all folks!",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/That-s-all-folks--deea.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}
