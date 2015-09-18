@@ -36,7 +36,7 @@
      "action": "open"
     }
    ],
-   "layout": "3-cell-tree",
+   "layout": "3-cell",
    "path": [
     "html-forms"
    ],
@@ -92,11 +92,98 @@
   },
   {
    "id": "841c95b1-dc66-c102-b77e-813d68b1859c",
-   "title": "Handling forms with JS",
+   "title": "Interactions with JS",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "forms-js/button.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: forms-js/button.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "forms-js"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Interactions-with-JS-841c.md",
+   "chapter": true,
+   "reset": [
+    "forms-js"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "1d25cb06-e898-b92a-4c09-54cf1fdd364b",
+   "title": "Using a button with JS",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Handling-forms-with-JS-841c.md",
+   "content-file": ".guides/content/Using-a-button-with-JS-1d25.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "ae238fa0-a6a8-b3b3-56c3-cb3a46cadeb5",
+   "title": "Use anything as a click source",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "forms-js/anything.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: forms-js/anything.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [
+    "forms-js"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Use-anything-as-a-click-source-ae23.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "81112fe3-c90c-b854-6367-12f811e96d56",
+   "title": " Submit a form with JS",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "html-forms/send-form.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: html-forms/send-form.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/-Submit-a-form-with-JS-8111.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
@@ -104,11 +191,17 @@
   {
    "id": "b8b3631f-4422-ade1-4f6c-d83ef47d7733",
    "title": "Handling forms with jQuery",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Handling-forms-with-jQuery-b8b3.md",
-   "chapter": false,
+   "chapter": true,
    "reset": [],
    "teacherOnly": false
   },
@@ -148,6 +241,17 @@
    "type": "markdown",
    "content-file": ".guides/content/That-s-all-folks--deea.md",
    "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "28718bcb-9e5a-cd21-55be-4139c1f80d",
+   "title": "Interaction challenge",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Interaction-challenge-2871.md",
+   "chapter": false,
    "reset": [],
    "teacherOnly": false
   }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Using anything as click source</title>
+  <style>
+    #reddiv, #redlink, #redpic { cursor:pointer; }
+    #reddiv, #redlink { background-color:darkred; color:white; }
+  </style>
+</head>
+<body>
+  
+  <div id="reddiv">
+    I am a red div and you can click me
+  </div> <br>
+  
+  <a id="redlink">
+    I am a red link and you can click me
+  </a> <br>
+  
+  <br>
+  
+  <img src="red.png" id="redpic" width="50%" /> 
+  
+  <script>
+    function myFunction(event){
+      alert("Clicked "+event.target.tagName+" with id "+event.target.id)
+    }
+    
+    document.getElementById('reddiv').onclick = myFunction;
+    document.getElementById('redlink').onclick = myFunction;
+    document.getElementById('redpic').onclick = myFunction;
+
+  </script>
+
+</body>
+</html>

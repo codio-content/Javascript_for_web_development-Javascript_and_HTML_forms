@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Using a button with JS</title>
+</head>
+<body>
+  
+  <button id="mybutton" onclick="myFunction();">
+    I have on onclick handler
+  </button> <br>
+  
+  <button id="mybutton2">
+    My onclick handler is added by JS
+  </button> <br>
+  
+  <button id="mybutton3">
+    My onclick handler is added by JS via an anonymous function
+  </button> 
+  
+  <script>
+    function myFunction(param){
+      
+      var datas = 'myFunction received nothing';
+      
+      if (param !== undefined) {
+        
+        
+        if(typeof param == 'object') {
+          datas = "myFunction received an object : " + param
+        } else if(typeof param == 'string') {
+          datas = "myFunction received a string : " + param
+        } else {
+          datas =  "myFunction received something : " + param
+        }
+        
+         
+      
+      }
+      
+      
+      alert(datas)
+  
+    }
+    
+    document.getElementById('mybutton2').onclick = myFunction;
+
+    //- Using and anonymous function:
+    document.getElementById('mybutton3').onclick = function () { myFunction('Hello!'); };
+  
+  </script>
+
+</body>
+</html>
