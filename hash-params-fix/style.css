@@ -1,4 +1,4 @@
-.section {
+#error, .section {
   display:none;
   position:absolute;
   top:0;
@@ -10,4 +10,8 @@
   font-size:6em;
   padding-top:10%;
   text-align:center;
+}
+
+#error{
+  background-color:red;
 }
