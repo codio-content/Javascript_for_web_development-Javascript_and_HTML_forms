@@ -11,3 +11,12 @@ document.getElementById("submit-the-form").onclick = function(){
 ```
 
 We add a `onclick` handler to the link (as we saw in the previous unit). In the code that's called when you click, we first get the form by it's ID and then we call the `submit` function on it. The `submit` function does exactly what it says, it "submits" the form as if we had clicked on a submit button.
+
+
+For your curiousity, here is the same using jQuery :
+
+```
+$("#submit-the-form").click(function(){
+  $("#the-form").submit();
+})
+```
