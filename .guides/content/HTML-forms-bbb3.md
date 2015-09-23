@@ -1,4 +1,4 @@
-HTML forms are a powerful tool to interact with the user of our pages. They allow us to let our user enter information, make choices and click on buttons.
+HTML forms are a powerful tool to interact with the users of our pages. They allow us to let our users enter informations, make choices and click on buttons.
 
 In the following sections we will see how to create a form as well as the different elements we can put in a form.
 
@@ -21,5 +21,5 @@ In the example above, we have one `<input>` and one `<button>` widgets.
 
 In the left hand panes, you can find a working implementation of this simple form, the code on the top, the preview underneath.
 
-Go ahead and type your name in the preview, then click "Send your name".
-You can refresh the preview windows if you want to try again.
+Go ahead and type your name in the preview, then click the button "Send your name".
+You can refresh the preview window if you want to try again.

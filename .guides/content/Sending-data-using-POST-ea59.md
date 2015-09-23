@@ -1,13 +1,13 @@
 The second method to send data to the server is to use the "body" of our request. When we do an HTTP request to the server from our browser, there is in this request a header and a body, like an HTML page. 
 
- 1. The header will contain informations like the URL requested, the browser version that asks it, the time at which request mas made, etc.
- 1. The body will contain the "content" of the request, it was made to transfert informations about our request to the server.
+ 1. The header will contain information like the URL requested, the browser version that asks it, the time at which request mas made, etc.
+ 1. The body will contain the "content" of the request, it was made to transfer the information of our request to the server.
  
 To send data in the body of our request we use a structure quite similar to the GET.
 
 If we have three parameters to send to the server we just write them in the body of our request like this `param1=val1&param2=val2&param3=val3`
 
-If we analyse the different parts :
+If we analyze the different parts :
 
 $$
 {\sf

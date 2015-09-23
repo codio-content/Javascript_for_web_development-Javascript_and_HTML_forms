@@ -12,4 +12,4 @@ For example you fecth `<li data-something="3">` by using `.data("something")` or
 
 |||
 
-Let's continue analysing the page in the left hand panes.
+Let's continue analyzing the page in the left hand panes.

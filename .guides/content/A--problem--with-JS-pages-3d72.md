@@ -9,4 +9,4 @@ Let say we have 3 items in our menu:
 
 Then we need a way to be able to access these 3 sections using some URL.
 
-A classical way to transmit informations on the web is to use GET parameters as we have seen previously. The problem of using GET parameters is that the server also understands the GET parameters and will also react to it. We want a way to add to the URL that doesn't interfere with the server.
+A classical way to transmit information on the web is to use GET parameters as we have seen previously. The problem of using GET parameters is that the server also understands the GET parameters and will also react to it. We want a way to add to the URL that doesn't interfere with the server.

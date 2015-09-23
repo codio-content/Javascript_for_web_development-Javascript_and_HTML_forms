@@ -1,6 +1,6 @@
 ## Recap
 
-In the previous unit, we have seen the basics of javascript for the browser. We learned how to manipulate the DOM, work with callbacks and timer, an finally how to use jQuery to ease our life as a web developer.
+In the previous units, we have seen the basics of javascript for the browser. We learned how to manipulate the DOM, work with callbacks and timers, and finally how to use jQuery to ease our life as web developers.
 
 ## In this unit
 

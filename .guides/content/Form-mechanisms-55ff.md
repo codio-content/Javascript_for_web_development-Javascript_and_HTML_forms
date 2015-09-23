@@ -1,4 +1,4 @@
-What exactly did happen in our simple form in the previous section ?
+What exactly did happen in our simple form in the previous section?
 In general, what happens when a user submits a form on a website? 
 
 In the graphic below we can see the different steps:

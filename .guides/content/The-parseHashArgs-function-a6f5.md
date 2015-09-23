@@ -1,5 +1,5 @@
 We first create a variable that will hold the variables we find in the hash parameters.
-The next line is quite complex : `var hashes = aURL.slice(aURL.indexOf('#') + 1).split('&') `. We can decompose it in two : `aURL.slice(aURL.indexOf('#') + 1)`
+The next line is quite complex: `var hashes = aURL.slice(aURL.indexOf('#') + 1).split('&') `. We can decompose it in two : `aURL.slice(aURL.indexOf('#') + 1)`
 
 1. The `slice(index)` function removes the beginning of a string up to the index given.
 `index.html#section=news&view=all` -> `section=news&view=all`

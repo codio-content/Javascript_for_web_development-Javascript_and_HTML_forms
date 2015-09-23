@@ -1,4 +1,4 @@
-In this unit we have seen how to build HTML forms and use them to transmit informations from the user to the server. We then saw how exactly these informations are transmitted.
+In this unit we have seen how to build HTML forms and use them to transmit information from the user to the server. We then saw how exactly this information is transmitted.
 
 Next we saw how to use form widgets with JS in order to interact with the user without using forms. We then saw how to use any HTML element as in interaction source.
 
