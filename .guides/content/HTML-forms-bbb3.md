@@ -13,7 +13,7 @@ Let's start with a very basic HTML form:
 
 A form is always wrapped between a opening `<form>` tag and a closing `</form>` tag, it must have a `action` property with a valid URL of a receiving script on a server.
 
-A form is composed of at least one widget. A widget is an HTML element like a text field, a select box, a check box, ... Most forms are composed of multiple widgets accompanied by labels.
+A form is composed of at least one widget. A widget is an HTML element like a text field, a select box, a check box, etc. Most forms are composed of multiple widgets accompanied by labels.
 
 In the example above, we have one `<input>` and one `<button>` widgets.
 - The input is of type `text` and has an ID of `name`

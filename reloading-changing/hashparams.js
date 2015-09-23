@@ -15,14 +15,14 @@ function parseHashArgs(aURL) {
   return vars
 }
 
-function refreshHashParams(){
+function checkHashParams(){
   var hashes = parseHashArgs(window.location.href)
 
   if(hashes.section) {
     $(".section").hide()
     $(".selected").removeClass("selected")
     $("#"+hashes.section).show()
-    $("#menu > li[data-display="+hashes.section+"]").addClass("selected")
+    $("#menu > li[data-target="+hashes.section+"]").addClass("selected")
   } else {
     $("#error").show()
   }

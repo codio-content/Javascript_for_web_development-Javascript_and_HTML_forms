@@ -6,5 +6,4 @@ Then we have the function `window.location.replace();`, we can call this functio
 
 For example you could write : `window.location.replace('https://www.codio.com')` and the browser would navigate to Codio's website.
 
-If we use `window.location.replace` we could add a click event and create a quick menu for our three pages
-
+If we use `window.location.replace` we could add a menu to our previous example that was using hashtags to navigate between the three pages of the site.

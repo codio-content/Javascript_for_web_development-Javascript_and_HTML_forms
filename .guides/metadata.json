@@ -49,17 +49,6 @@
    "teacherOnly": false
   },
   {
-   "id": "55ffd956-fe9c-4ad2-d848-b385bca6a4b7",
-   "title": "Form mechanisms",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Form-mechanisms-55ff.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false
-  },
-  {
    "id": "6e73ed-9df4-b6bc-183c-40e98af764f",
    "title": "Your first form!",
    "files": [
@@ -78,7 +67,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "3-cell",
    "path": [
     "your-first-form"
    ],
@@ -91,8 +80,79 @@
    "teacherOnly": false
   },
   {
+   "id": "55ffd956-fe9c-4ad2-d848-b385bca6a4b7",
+   "title": "Form mechanisms",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Form-mechanisms-55ff.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "1e6ee29-8c23-a8f-ca00-cee748d47c04",
+   "title": "Sending data to the server",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Sending-data-to-the-server-1e6e.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "f8c9f8d2-9aad-8ca-2d5a-1b17fa5cc2fb",
+   "title": "Sending data using GET",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Sending-data-using-GET-f8c9.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "ea5942e7-29bb-22c2-6d7-c3f25fddd4de",
+   "title": "Sending data using POST",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Sending-data-using-POST-ea59.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "841c95b1-dc66-c102-b77e-813d68b1859c",
    "title": "Interactions with JS",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [
+    "forms-js"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Interactions-with-JS-841c.md",
+   "chapter": true,
+   "reset": [
+    "forms-js"
+   ],
+   "teacherOnly": false
+  },
+  {
+   "id": "1d25cb06-e898-b92a-4c09-54cf1fdd364b",
+   "title": "Using a button with JS",
    "files": [
     {
      "path": "#tabs",
@@ -109,22 +169,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
-   "path": [
-    "forms-js"
-   ],
-   "type": "markdown",
-   "content-file": ".guides/content/Interactions-with-JS-841c.md",
-   "chapter": true,
-   "reset": [
-    "forms-js"
-   ],
-   "teacherOnly": false
-  },
-  {
-   "id": "1d25cb06-e898-b92a-4c09-54cf1fdd364b",
-   "title": "Using a button with JS",
-   "files": [],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Using-a-button-with-JS-1d25.md",
@@ -189,21 +234,56 @@
    "teacherOnly": false
   },
   {
-   "id": "3d72d341-9cd5-dba4-639d-f7e3b0f131c0",
-   "title": "A problem with JS pages",
+   "id": "28718bcb-9e5a-cd21-55be-4139c1f80d",
+   "title": "Interaction challenge",
    "files": [],
-   "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/GET-parameters-3d72.md",
-   "chapter": true,
+   "content-file": ".guides/content/Interaction-challenge-2871.md",
+   "chapter": false,
    "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "3d72d341-9cd5-dba4-639d-f7e3b0f131c0",
+   "title": "A \"problem\" with JS pages",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/A--problem--with-JS-pages-3d72.md",
+   "chapter": true,
+   "reset": [
+    "hash-params",
+    "hash-params-fix"
+   ],
    "teacherOnly": false
   },
   {
    "id": "358e634-f114-104c-afb-5e56ff9cf2",
    "title": "Hash parameters",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "hash-params/example.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: hash-params/example.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Hash-parameters-358e.md",
@@ -212,9 +292,83 @@
    "teacherOnly": false
   },
   {
+   "id": "a6f5cb88-d25e-5062-8ffc-dc657902c77e",
+   "title": "The parseHashArgs function",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "hash-params/example.html",
+     "panel": 0,
+     "ref": "parseHashArgs",
+     "lineCount": 15,
+     "action": "open"
+    },
+    {
+     "path": "#preview: hash-params/example.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-parseHashArgs-function-a6f5.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "969057c4-77a4-589d-2260-1da1caa3ac30",
+   "title": "The document.ready handler",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "hash-params/example.html",
+     "panel": 0,
+     "ref": "$(document).ready",
+     "lineCount": 12,
+     "action": "open"
+    },
+    {
+     "path": "#preview: hash-params/example.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-document-ready-handler-9690.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
    "id": "9d696b51-6e1c-158e-354f-87e0b0ea25ed",
    "title": "Fix it",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "hash-params-fix/example.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: hash-params-fix/example.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Fix-it-9d69.md",
@@ -225,12 +379,158 @@
   {
    "id": "3a7ebc2b-ac91-12-2336-e5391e2d8466",
    "title": "Reloading/changing page with JS",
-   "files": [],
-   "layout": "",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Reloading-changing-page-with-JS-3a7e.md",
    "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "c847b83d-f4f-60a2-d5d2-66d18ea16b77",
+   "title": "Adding a navigation menu",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "reloading-changing/example.html",
+     "panel": 0,
+     "ref": "<ul id=\"menu\">",
+     "lineCount": 5,
+     "action": "open"
+    },
+    {
+     "path": "#preview: reloading-changing/example.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "3-cell",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Adding-a-navigation-menu-c847.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "7f748b81-5a7e-7c85-f80b-b8fb6217a2c6",
+   "title": "The hashparams.js file",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "#preview: reloading-changing/example.html",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "reloading-changing/hashparams.js",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-hashparams-js-file-7f74.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "37cb9b77-667b-d59f-6083-850f60ff8c2d",
+   "title": "Document.ready",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "reloading-changing/example.html",
+     "panel": 0,
+     "ref": "$(document).ready",
+     "lineCount": 11,
+     "action": "open"
+    },
+    {
+     "path": "#preview: reloading-changing/example.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Document-ready-37cb.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "2b75b02-a79b-7fa3-9826-e7718269feca",
+   "title": "Click handler",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "reloading-changing/example.html",
+     "panel": 0,
+     "ref": "$(\"#menu > li\")",
+     "lineCount": 7,
+     "action": "open"
+    },
+    {
+     "path": "#preview: reloading-changing/example.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Click-handler-2b75.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "3b47e614-64e6-7e20-d82-7c8fa32973e2",
+   "title": "Use location.replace to fix our menu",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "reloading-changing/example.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: reloading-changing/example.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Use-location-replace-to-fix-our-menu-3b47.md",
+   "chapter": false,
    "reset": [],
    "teacherOnly": false
   },
@@ -248,17 +548,6 @@
    "type": "markdown",
    "content-file": ".guides/content/That-s-all-folks--deea.md",
    "chapter": true,
-   "reset": [],
-   "teacherOnly": false
-  },
-  {
-   "id": "28718bcb-9e5a-cd21-55be-4139c1f80d",
-   "title": "Interaction challenge",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/Interaction-challenge-2871.md",
-   "chapter": false,
    "reset": [],
    "teacherOnly": false
   }

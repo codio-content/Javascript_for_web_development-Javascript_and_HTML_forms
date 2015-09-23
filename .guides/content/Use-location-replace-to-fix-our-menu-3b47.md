@@ -1,3 +1,11 @@
+{Check It!|assessment}(test-2019918054)
+
+
+|||guidance
+
+Solution :
+
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,7 +43,7 @@
       } else {
         //by default we go to home.
         //use location replace to go to section "home"
-        
+        window.location.replace("example.html#section=home")
         
         checkHashParams();
       }
@@ -43,8 +51,9 @@
     
     $("#menu > li").click(function(){
       var section = $(this).data("target");
-      //use location replace to go to section "section"
       
+      //use location replace to go to section "section"
+      window.location.replace("example.html#section="+section)
       
       checkHashParams();
     })
@@ -53,3 +62,6 @@
 
 </body>
 </html>
+```
+
+|||
