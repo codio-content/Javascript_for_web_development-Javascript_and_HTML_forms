@@ -236,7 +236,23 @@
   {
    "id": "28718bcb-9e5a-cd21-55be-4139c1f80d",
    "title": "Interaction challenge",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "interaction-challenge/challenge.html",
+     "panel": 0,
+     "action": "open"
+    },
+    {
+     "path": "#preview: interaction-challenge/challenge.html",
+     "panel": 1,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Interaction-challenge-2871.md",
