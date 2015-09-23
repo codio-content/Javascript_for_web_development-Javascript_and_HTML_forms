@@ -25,7 +25,7 @@ $$
 }
 $$
 
-What the browser does when we the user submits a `form` is to encode the values that the user entered in the forms in either GET or POST. It then sends it to the `action` URL provided in the `form`. So we will not have to encode these values ourselves, all we have to do is to use the `method` parameter of the `form` tag to tell the browser which ones to use.
+What the browser does when we the user submits a form is to encode the values that the user entered in the forms in either GET or POST. It then sends it to the `action` URL provided in the `<form>`. So we will not have to encode these values ourselves, all we have to do is to use the `method` parameter of the `<form>` tag to tell the browser which ones to use.
 
 We generally use the `POST` method when there are many parameters and we don't want the user to see all those parameters in the URL.
 
