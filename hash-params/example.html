@@ -20,7 +20,7 @@
   <script>
     function parseHashArgs(aURL) {
       var vars = {}
-      var hashes = window.location.hash.split('&');
+      var hashes = window.location.hash.slice(1).split('&');
 
       for(var i = 0; i < hashes.length; i++) {
          var hash = hashes[i].split('=')

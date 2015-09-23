@@ -13,7 +13,7 @@ Solution :
 </head>
 <body>
 
-  <form action="https://codio-form-unit.com">
+  <form action="https://codio-forms-unit.com">
 
     <input type="text" name="firstname" />
     <input type="text" name="lastname" />

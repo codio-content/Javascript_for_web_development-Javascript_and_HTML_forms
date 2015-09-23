@@ -53,7 +53,7 @@ Solution :
       var section = $(this).data("target");
       
       //use location replace to go to section "section"
-      window.location.replace("example.html#section="+section)
+      
       
       checkHashParams();
     })
