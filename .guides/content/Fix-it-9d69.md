@@ -4,7 +4,7 @@ We didn't quite think about that? It displays a white page ... You can try it in
 
 A simple way to fix it, would be to check at the end of the current code to see if we do have a section visible, if we don’t have any visible section, then we could display an error message.
 
-With jQuery we can use the `:visible` after any selector and it will only return the ones that are visible. So if we use `$('.section:visible')`. It will return all the `div`'s which have class `section` and are visible. The rest is simple, if there is no section visible, we display an error message. In jQuery we do that by testing the length of the jQuery object, so `$('.section:visible').length()` will return the number of visible `div`'s with class `section`. 
+With jQuery we can use the `:visible` after any selector and it will only return the ones that are visible. So if we use `$('.section:visible')`. It will return all the `div`'s which have class `section` and are visible. The rest is simple, if there is no section visible, we display an error message. In jQuery we do that by testing the length of the jQuery object, so `$('.section:visible').length` will return the number of visible `div`'s with class `section`. 
 
 {Check It!|assessment}(test-3262020852)
 
