@@ -13,5 +13,5 @@ Our myFunction (declared on line 21) just checks if it received a value in param
 
 You will notice when clicking on each of the buttons that:
 1. The first button doesn't pass any parameter to `myFunction`
-2. The second button gives the click event has a parameter to `myFunction`
+2.  The second button passes the click event as the first argument of the call to `myFunction`
 3. The last option allows us to pass our own parameter value : `Hello!`

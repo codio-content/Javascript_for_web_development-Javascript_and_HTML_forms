@@ -1,4 +1,4 @@
-What exactly do happen when a user submits our simple form from the previous section?
+What exactly happens when a user submits our simple form from the previous section?
 
 In the graphic below we can see the different steps:
 

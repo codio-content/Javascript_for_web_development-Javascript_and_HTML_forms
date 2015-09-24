@@ -14,6 +14,6 @@ Then we have two calls :
 
 Then for all the entries in this array we do `var hash = hashes[i].split('=')`.
 
-Whichs transforms the string: `"section=news"` into an `Array('section','news')` and the string: `"view=all"` into an `Array('view','all')`
+Which transforms the string: `"section=news"` into an `Array('section','news')` and the string: `"view=all"` into an `Array('view','all')`
 
 Then finally, if this array has more than one entry, we take the first entry as the name and the second entry as the value and save it all to the `vars` variable that we return at the end of the loop.
