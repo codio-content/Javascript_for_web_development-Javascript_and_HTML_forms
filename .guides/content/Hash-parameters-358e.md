@@ -18,7 +18,7 @@ $$
 
 This is very similar to GET parameters except for the `#` sign instead of the `?` but the `#` sign is not handled by the servers and we can read the content of these variables using JS. 
 
-In the top left hand pane, you can see a potential code for parsing this structure of arguments. This code is made of two parts:
+In the top left hand pane, you can see some code for parsing this structure of arguments. This code is made of two parts:
 1. On line 21, the `parseHashArgs` function which will extract the hash parameters as described above.
 1. On line 38, the `$(document).ready()` code that will call this function, and check if a parameter called `section` was found in it and then use it to show the correct `div` based on its ID.
 

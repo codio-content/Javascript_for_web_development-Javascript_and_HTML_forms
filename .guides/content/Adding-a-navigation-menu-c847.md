@@ -6,9 +6,9 @@ On the HTML side of things, we have only added an `ul` (on line 9) that contains
 
 ### The jQuery .data() function
 
-Any parameter that you put on an HTML tag that begins with `data-` can be fetched from jQuery using the `.data()` function.
+Any parameter that you put in an HTML tag that begins with `data-` can be fetched from jQuery using the `.data()` function.
 
-For example you fecth `<li data-something="3">` by using `.data("something")` or you fetch `<li data-mytime="12">` by using `.data("mytime")` on a jQuery object that matches the corresponding `li`.
+For example you fetch `<li data-something="3">` by using `.data("something")` or you fetch `<li data-mytime="12">` by using `.data("mytime")` on a jQuery object that matches the corresponding `li`.
 
 |||
 

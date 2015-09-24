@@ -1,3 +1,20 @@
+In the top left hand pane, you can find the file `challenge.html` along with its preview underneath.
+
+In this file we have created custom "toggle" buttons using three `div`'s with a CSS class `toggle-button`. We have created all the CSS styles for this to work and some code also.
+
+<table>
+<tr><td style="width:70%;">
+These buttons should toggle between their "on" and "off" state when we click on them, like in the picture on the right:
+</td>
+<td>
+<img src=".guides/img/toggle-button.png">
+</td>
+</tr>
+</table>
+
+You can see the function `toggleClick`on line 26 which is our click handler for the three buttons, basically it gets the clicked element using `event.target` then it checks if there is already an element with the CSS class `selected` and remove it. Then if the item was not selected it adds the `selected` class on it.
+
+
 {Check It!|assessment}(test-2147974341)
 
 |||guidance
