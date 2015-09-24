@@ -12,18 +12,11 @@ Solution :
     <title> My first form!</title>
 </head>
 <body>
-
   <form action="https://codio-forms-unit.com">
-
     <input type="text" name="firstname" />
     <input type="text" name="lastname" />
-
-    <button type="submit">
-      Go !
-    </button>
-
+    <button type="submit"> Go ! </button>
   </form>
-
   <!-- don't remove, this is for codio forms to work -->
   <script src="/.guides/form-app/codioforms.js"> </script>
 </body>
