@@ -5,7 +5,7 @@ In the graphic below we can see the different steps:
 
 ![](.guides/img/Form_path.png)
 
-1. You click on the submit button after having filled the textfield with "Your name"
+1. You click on the submit button after having filled the textfield with "My name"
 1. The browser submits the form to the provided action URL.
 1. The server processes the form data and answers with a page saying "Thank you for submitting your form to this address..." 
 

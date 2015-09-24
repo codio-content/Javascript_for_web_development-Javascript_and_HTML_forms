@@ -2,9 +2,9 @@ The first method to send data to the server is to use the URL.
 
 When we send a request to the server we have to give him the URL of the resources we want. The server is capable of reading and understanding this URL in order to serve us with the correct file. We can then add some text at the end of the URL in a structured way in order to transmit to the server extra information.
 
-For example, we are asking the server the some `index.html` file and we want to tell the browser that the current user is "john" and that the current page is "news".
+For example, we are asking the server the `index.html` file and we want to tell the server that the current user is "john" and that the current page is "news".
 
-If we want to use the GET method, we should write it like `index.html?user=john&page=news`
+If we want to use the GET method, we should write it like this: `index.html?user=john&page=news`
 
 If we analyze the different parts :
 

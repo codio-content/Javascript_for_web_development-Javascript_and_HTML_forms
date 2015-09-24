@@ -1,8 +1,8 @@
 A common difficulty in JS web pages, is that because JS is used to change the page's content dynamically, it's impossible to link directly to a specific page with its content.
 
-Let's imagine we have a page `index.html` with a menu on the left, when you click on an entry in the menu, some JS code loads a different content in the page. So basically you have multiple pages in one. How do you link to a subpage ? The only URL we have is `http://somesite.com/index.html` ?
+Let's imagine we have a page `index.html` with a menu on the top, when you click on an entry in the menu, some JS code loads a different content in the page. So basically you have multiple pages in one. How do you link to a subpage ? The only URL we have is `http://somesite.com/index.html` ?
 
-Let say we have 3 items in our menu:
+Let's say we have 3 items in our menu:
 - Home
 - News
 - About

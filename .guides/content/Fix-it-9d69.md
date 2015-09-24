@@ -1,6 +1,6 @@
 The page from the previous section works just fine but there is still a little problem, what happens if we use a wrong section argument, for example `example.html#section=thisisnotasection` or `example.html#thisiswrong` ?
 
-We didn't quite think about that.
+We didn't quite think about that? It displays a white page ... You can try it in the bottom left hand pane
 
 {Check It!|assessment}(test-3262020852)
 

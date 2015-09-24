@@ -1,8 +1,8 @@
 We first create a variable that will hold the variables we find in the hash parameters.
-The next line is quite complex: `var hashes = aURL.slice(aURL.indexOf('#') + 1).split('&') `. We can decompose it in two : `aURL.slice(aURL.indexOf('#') + 1)`
+The next line is quite complex: `var hashes = window.location.hash.slice(1).split('&')`. `window.location.hash` return the hash portion of the page's URL.Then we have two calls :
 
-1. The `slice(index)` function removes the beginning of a string up to the index given.
-`index.html#section=news&view=all` -> `section=news&view=all`
+1. The `slice(1)` function removes the first character of the string.
+`#section=news&view=all` -> `section=news&view=all`
 
 2. The `split(delimiter)` function splits a string into an array, and it splits everytime it sees the given delimiter string.
 `section=news&view=all` -> `Array("section=news","view=all")`
