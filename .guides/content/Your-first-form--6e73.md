@@ -30,6 +30,6 @@ Solution :
 
 ### A problem ?
 
-If you have any problem or delete something by accident, you can reset the current chapter to its initial state by clicking the "Settings" button at the top right hand of this page and then choose "Reset chapter".
+If you have any problem or delete something by accident, you can reset the current chapter to its initial state by clicking the "Settings" button at the top right hand of this page and then choose "Restore current files".
 
 |||
