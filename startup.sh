@@ -1,1 +1,0 @@
-cd .guides/form-app/ && node server.js
