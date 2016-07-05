@@ -208,7 +208,7 @@
   },
   {
    "id": "81112fe3-c90c-b854-6367-12f811e96d56",
-   "title": " Submit a form with JS",
+   "title": "Submit a form with JS",
    "files": [
     {
      "path": "#tabs",
@@ -228,7 +228,7 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/-Submit-a-form-with-JS-8111.md",
+   "content-file": ".guides/content/Submit-a-form-with-JS-8111.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false

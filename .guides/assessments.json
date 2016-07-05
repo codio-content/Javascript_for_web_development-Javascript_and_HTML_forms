@@ -1,0 +1,66 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-2019918054",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Use location.replace",
+   "instructions": "In the file `example.html` in the top left hand pane, you are asked to add two lines of code that will both use `location.replace`\n1. On line 38 add a call to `window.location.replace` that will change our URL to the home URL which is : `example.html#section=home`\n1. On line 48 add a call to `window.location.replace` that will change our URL to the currently clicked section, which is `\"example.html#section=\"+section`\n\nTry reloading the preview to see if it all works.\nGood luck!",
+   "command": "bash .guides/tests/exec.sh .guides/tests/location-replace.js",
+   "points": 10
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2147974341",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Fix the buttons",
+   "instructions": "You are asked to connect this `toggleClick` function to the buttons using their `onclick` property.  For that we have prepared on line 20 a `for` loop that iterates through these three buttons. \n\nYou have to assign `toggleClick` to the `onclick` property of the current button: `buttons[i]` inside the for loop.\n\nWhen this is done, our buttons should work correctly. Refresh the preview in the bottom left hand pane and try clicking the buttons.\n\nGood luck.",
+   "command": "bash .guides/tests/exec.sh .guides/tests/interaction-challenge.js",
+   "points": 3
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3110574477",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Your first form",
+   "instructions": "In the top left hand pane you will find a file called `challenge.html` that we prepared for you.\n\nYou are asked to edit it and add to the `body` of the page :\n1. A `<form>` with `action=\"https://codio-forms-unit.com\"`.\n    Inside that form:\n        1. An `<input>` with `type=\"text\"` and `name=\"firstname\"`\n        2. An `<input>` with `type=\"text\"` and `name=\"lastname\"`\n        3. A `<button>` with `type=\"submit\"` and some text.\n\nWhen this is all done, you should try to refresh the preview, fill the text fields and submit the form to try it.\n",
+   "command": "bash .guides/tests/exec.sh .guides/tests/your-first-form.js",
+   "points": 3
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3262020852",
+  "source": {
+   "showName": true,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Let's fix it!",
+   "instructions": "On line 54 we have put a comment, `//your code here`:\nWrite code that will check if there is no visible section using the code above. If there is none, it will use the jQuery `show()` function on the div with ID `#error` that we added on line 18 for you.\n\nTry it in the preview in the bottom left hand pane with a wrong section to see if it works.\n\nGood luck!",
+   "command": "bash .guides/tests/exec.sh .guides/tests/hash-fix.js",
+   "points": 5
+  }
+ }
+]
