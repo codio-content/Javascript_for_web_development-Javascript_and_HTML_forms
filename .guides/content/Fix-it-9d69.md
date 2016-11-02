@@ -33,7 +33,7 @@ Solution :
   <div id="error">
     Error : This section doesn't exist!
   </div>
-  <script src="/.guides/form-app/public/js/jquery.js"> </script>
+  <script src="../.guides/form-app/public/js/jquery.js"> </script>
   <script>
     function parseHashArgs(aURL) {
       var vars = {}
