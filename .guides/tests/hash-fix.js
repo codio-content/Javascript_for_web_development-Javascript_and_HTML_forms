@@ -1,9 +1,8 @@
 var fs = require('fs');
 var phantom = require('phantom');
 
-var box_domain = process.env.CODIO_BOX_DOMAIN;
-var fullurl = "http://"+ box_domain + "/hash-params-fix/example.html#sss";
-var jqueryurl = "http://"+ box_domain + "/.guides/form-app/public/js/jquery.js";
+var fullurl = "file:///home/codio/workspace/hash-params-fix/example.html#sss";    
+var jqueryurl = "file:///home/codio/workspace/.guides/form-app/public/js/jquery.js";
 var errors = [];
 
 //console.log(fullurl);
