@@ -1,0 +1,159 @@
+{
+ "name": "Javascript_for_web_development-Javascript_and_HTML_forms",
+ "children": [
+  {
+   "title": "Introduction",
+   "id": "d7e6d40b-5a1f-6da8-26fb-80056adf90a",
+   "pageId": "d7e6d40b-5a1f-6da8-26fb-80056adf90a",
+   "type": "chapter",
+   "children": []
+  },
+  {
+   "title": "HTML forms",
+   "id": "bbb39b66-dd77-dde2-6009-f6e9e889a4cb",
+   "pageId": "bbb39b66-dd77-dde2-6009-f6e9e889a4cb",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Your first form!",
+     "id": "6e73ed-9df4-b6bc-183c-40e98af764f",
+     "pageId": "6e73ed-9df4-b6bc-183c-40e98af764f",
+     "type": "page"
+    },
+    {
+     "title": "Form mechanisms",
+     "id": "55ffd956-fe9c-4ad2-d848-b385bca6a4b7",
+     "pageId": "55ffd956-fe9c-4ad2-d848-b385bca6a4b7",
+     "type": "page"
+    },
+    {
+     "title": "Sending data to the server",
+     "id": "1e6ee29-8c23-a8f-ca00-cee748d47c04",
+     "pageId": "1e6ee29-8c23-a8f-ca00-cee748d47c04",
+     "type": "page"
+    },
+    {
+     "title": "Sending data using GET",
+     "id": "f8c9f8d2-9aad-8ca-2d5a-1b17fa5cc2fb",
+     "pageId": "f8c9f8d2-9aad-8ca-2d5a-1b17fa5cc2fb",
+     "type": "page"
+    },
+    {
+     "title": "Sending data using POST",
+     "id": "ea5942e7-29bb-22c2-6d7-c3f25fddd4de",
+     "pageId": "ea5942e7-29bb-22c2-6d7-c3f25fddd4de",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Interactions with JS",
+   "id": "841c95b1-dc66-c102-b77e-813d68b1859c",
+   "pageId": "841c95b1-dc66-c102-b77e-813d68b1859c",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Using a button with JS",
+     "id": "1d25cb06-e898-b92a-4c09-54cf1fdd364b",
+     "pageId": "1d25cb06-e898-b92a-4c09-54cf1fdd364b",
+     "type": "page"
+    },
+    {
+     "title": "Use anything as a click source",
+     "id": "ae238fa0-a6a8-b3b3-56c3-cb3a46cadeb5",
+     "pageId": "ae238fa0-a6a8-b3b3-56c3-cb3a46cadeb5",
+     "type": "page"
+    },
+    {
+     "title": "Submit a form with JS",
+     "id": "81112fe3-c90c-b854-6367-12f811e96d56",
+     "pageId": "81112fe3-c90c-b854-6367-12f811e96d56",
+     "type": "page"
+    },
+    {
+     "title": "Interaction challenge",
+     "id": "28718bcb-9e5a-cd21-55be-4139c1f80d",
+     "pageId": "28718bcb-9e5a-cd21-55be-4139c1f80d",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "A \"problem\" with JS pages",
+   "id": "3d72d341-9cd5-dba4-639d-f7e3b0f131c0",
+   "pageId": "3d72d341-9cd5-dba4-639d-f7e3b0f131c0",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Hash parameters",
+     "id": "358e634-f114-104c-afb-5e56ff9cf2",
+     "pageId": "358e634-f114-104c-afb-5e56ff9cf2",
+     "type": "page"
+    },
+    {
+     "title": "The parseHashArgs function",
+     "id": "a6f5cb88-d25e-5062-8ffc-dc657902c77e",
+     "pageId": "a6f5cb88-d25e-5062-8ffc-dc657902c77e",
+     "type": "page"
+    },
+    {
+     "title": "The document.ready handler",
+     "id": "969057c4-77a4-589d-2260-1da1caa3ac30",
+     "pageId": "969057c4-77a4-589d-2260-1da1caa3ac30",
+     "type": "page"
+    },
+    {
+     "title": "Fix it",
+     "id": "9d696b51-6e1c-158e-354f-87e0b0ea25ed",
+     "pageId": "9d696b51-6e1c-158e-354f-87e0b0ea25ed",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "Reloading/changing page with JS",
+   "id": "3a7ebc2b-ac91-12-2336-e5391e2d8466",
+   "pageId": "3a7ebc2b-ac91-12-2336-e5391e2d8466",
+   "type": "chapter",
+   "children": [
+    {
+     "title": "Adding a navigation menu",
+     "id": "c847b83d-f4f-60a2-d5d2-66d18ea16b77",
+     "pageId": "c847b83d-f4f-60a2-d5d2-66d18ea16b77",
+     "type": "page"
+    },
+    {
+     "title": "The hashparams.js file",
+     "id": "7f748b81-5a7e-7c85-f80b-b8fb6217a2c6",
+     "pageId": "7f748b81-5a7e-7c85-f80b-b8fb6217a2c6",
+     "type": "page"
+    },
+    {
+     "title": "Document.ready",
+     "id": "37cb9b77-667b-d59f-6083-850f60ff8c2d",
+     "pageId": "37cb9b77-667b-d59f-6083-850f60ff8c2d",
+     "type": "page"
+    },
+    {
+     "title": "Click handler",
+     "id": "2b75b02-a79b-7fa3-9826-e7718269feca",
+     "pageId": "2b75b02-a79b-7fa3-9826-e7718269feca",
+     "type": "page"
+    },
+    {
+     "title": "Use location.replace to fix our menu",
+     "id": "3b47e614-64e6-7e20-d82-7c8fa32973e2",
+     "pageId": "3b47e614-64e6-7e20-d82-7c8fa32973e2",
+     "type": "page"
+    }
+   ]
+  },
+  {
+   "title": "That's all folks!",
+   "id": "deeacd9a-b17f-3722-2d71-7bb9cbfe3d2d",
+   "pageId": "deeacd9a-b17f-3722-2d71-7bb9cbfe3d2d",
+   "type": "chapter",
+   "children": []
+  }
+ ]
+}
